@@ -1,0 +1,21 @@
+[package]
+name = "planner-cli"
+description = "Command-line check for modular-sofa layout files."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "planner"
+path = "src/main.rs"
+
+[dependencies]
+planner-core = { path = "../core" }
+# The spec fixes JSON as the layout file format (share links, the web binding).
+# serde_json's untyped Value is the smallest correct parser; no serde derive or
+# proc macros, and every field is validated by hand at the boundary.
+serde_json = { version = "1", default-features = false, features = ["std"] }
+
+[lints]
+workspace = true

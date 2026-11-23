@@ -1,0 +1,7 @@
+{
+  "v": 1,
+  "seats": [
+    { "id": 1, "x": 6,  "y": 6, "facing": "S", "depth": "deep",     "sides": ["back", "left", "right"] },
+    { "id": 2, "x": 41, "y": 6, "facing": "S", "depth": "standard", "sides": ["left"] }
+  ]
+}

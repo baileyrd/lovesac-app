@@ -1,0 +1,13 @@
+[package]
+name = "planner-core"
+description = "Pure rules for modular-sofa layouts: pieces, side fit, parts list, footprint."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+# Deliberately no dependencies: the core is std only and does no I/O.
+[dependencies]
+
+[lints]
+workspace = true

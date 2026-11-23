@@ -1,0 +1,12 @@
+{
+  "v": 1,
+  "seats": [
+    { "id": 1, "x": 6,  "y": 6,  "facing": "S", "depth": "deep",     "sides": ["back", "right"] },
+    { "id": 2, "x": 35, "y": 6,  "facing": "S", "depth": "deep",     "sides": ["back"] },
+    { "id": 3, "x": 64, "y": 6,  "facing": "S", "depth": "deep",     "sides": ["back"] },
+    { "id": 4, "x": 93, "y": 6,  "facing": "S", "depth": "deep",     "sides": ["back", "left"] },
+    { "id": 5, "x": 6,  "y": 41, "facing": "E", "depth": "standard", "sides": ["back"] },
+    { "id": 6, "x": 6,  "y": 76, "facing": "E", "depth": "standard", "sides": ["back", "right"] },
+    { "id": 7, "x": 93, "y": 41, "facing": "W", "depth": "standard" }
+  ]
+}
